@@ -1,11 +1,13 @@
 import React from "react";
 import Header from "./Header";
+import SeasonList from "./SeasonList";
 
 function App(){
   return (
     <div>
       <Header/>
-      <h3>Season</h3>
+      <SeasonList/>
+      <hr/>
     </div>);
 }
 
