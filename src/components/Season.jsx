@@ -6,10 +6,11 @@ function Season(props) {
     <div>
       <style  global jsx>{`
           div {
-            background-color: orange;
+            background-color: green;
           }
         `}</style>
     <h3>{props.name}</h3>
+    <p><em>{props.produce}</em></p>
     <hr/>
   </div>
   );
@@ -17,6 +18,7 @@ function Season(props) {
 
 Season.propTypes = {
   name: PropTypes.string.isRequired,
+  produce: PropTypes.string.isRequired
 };
 
 export default Season;
